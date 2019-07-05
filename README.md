@@ -5,4 +5,8 @@ This webpage is made using the latest distribution of Bootstrap, Version 4. And 
 To make the website responsive to the screen width CSS media query is used. So that the screen automatically scales according to the device's screen.
 
 **Webpage on standard desktop resolution**
-<img src="images/pc_upper.jpg" title="PC resolution upper part"/>
+<img src="images/screenshot/pc_upper.jpg" title="PC resolution upper part"/>
+<img src="images/screenshot/pc_middle.jpg" title="PC resolution upper part"/>
+<img src="images/screenshot/pc_lower_middle.jpg" title="PC resolution upper part"/>
+<img src="images/screenshot/pc_cards.jpg" title="PC resolution upper part"/>
+<img src="images/screenshot/pc_footer.jpg" title="PC resolution upper part"/>

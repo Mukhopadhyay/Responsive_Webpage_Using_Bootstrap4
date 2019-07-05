@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+html, body {
+    background: #390059;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Open Sans";
+    color: #222;
+}
+.btn-danger {
+    background-color: rgb(255, 0, 85);
+}
+.btn-danger:hover {
+    background-color: white;
+    color: #222;
+}
+.btn-primary {
+    background-color: #390059;
+}
+.jumbotron {
+    background-image: linear-gradient(rgba(255, 0, 85, .5), rgb(57, 0, 89));
+}
+.btn-primary:hover {
+    background-color: white;
+    color: #222;
+}
+.navbar {
+    padding: 1rem;
+}
+.navbar-brand {
+    font-size: 1.6em !important;
+}
+.navbar-toggler-icon {
+    color: rgb(255, 0, 85);
+}
+.navbar-nav li {
+    padding-right: 1.3rem;
+}
+.nav-link {
+    font-size: 1.4em !important;
+}
+.carousel-inner img {
+    width: 100%;
+}
+.carousel-indicators li {
+    background-color: rgb(255, 0, 85);
+}
+li .active {
+    background-color: #222;
+}
+.carousel-caption {
+    color: #222;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+}
+.carousel-caption h1 {
+    color: #222222;
+    margin-bottom: 2rem;
+}
+.fa-code, .fa-android, .fa-terminal {
+    font-size: 4em;
+    margin: 2rem;
+    color: white;
+}
+.fut {
+    background-image: linear-gradient(rgb(57, 0, 89), rgb(255, 0, 85));
+}
+.connect {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.connect h2 {
+    border-radius: 0px 10px 0px;
+    background-color: rgba(255, 0, 85,0.2);
+    margin-top: 5%;
+    color: white;
+    margin-bottom: 8%;
+    box-shadow: 0px 0px 15px rgb(255, 0, 85);
+}
+.fa-facebook, .fa-twitter, .fa-git, .fa-steam {
+    padding: 0%;
+    font-size: 5em;
+    color: white;
+    transition-duration: .2sec;
+}
+.fa-facebook:hover {
+    text-shadow: 2px 3px 50px rgb(255, 0, 85);
+    transition-duration: .2sec;
+}
+.fa-twitter:hover {
+    text-shadow: 2px 3px 50px rgb(255, 0, 85);
+    transition-duration: .2sec;
+}
+.fa-git:hover {
+    text-shadow: 2px 3px 50px rgb(255, 0, 85);
+    transition-duration: .2sec;
+}
+.fa-steam:hover {
+    text-shadow: 2px 3px 50px rgb(255, 0, 85);
+    transition-duration: .2sec;
+}
+.white-text {
+    color: white;
+}
+.white-text p, h1, h3 {
+    color: white;
+}
+/*.fa-facebook {
+    color: #4267B2;
+}
+.fa-twitter {
+    color: #38A1F3;
+}
+.fa-git {
+    color: #f1502f;
+}
+.fa-steam {
+    color: black;
+}*/
+footer {
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+    background: grey;
+}
+footer p {
+    color: white;
+}
+.banner h1, p {
+    color: #222;
+}
+.banner {
+    background-image: url("../images/image2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card {
+    margin-top: 5rem;
+    padding: .4rem;
+    box-shadow: 5px 3px 50px rgb(255, 0, 85);
+}
+.footer-line {
+    background-color: white;
+    width: 30%;
+    height: 2px; 
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 768px) {
+    .connect h2 {
+        margin-bottom: 4rem;
+    }
+    .fa-facebook, .fa-twitter, .fa-git, .fa-steam {
+        font-size: 3.5rem;
+        padding-bottom: 2rem;
+    }
+}
+@media (max-width: 576px) {
+    .mainHeader {
+        font-size: 400%;
+        margin-bottom: 4rem;
+    }
+    .footer-line {
+        width: 80%;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-40%);
+    }
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .btn-lg {
+        font-size: 15px;
+        height: 50;
+    }
+}
+
+/*
+
+Extra small (xs) devices (portrait phones, less than  576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) {...}
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+
+*/

@@ -7,9 +7,15 @@ To make the website responsive to the screen width CSS media query is used. So t
 **Webpage on standard mobile resolution**
 
 <img src="images/screenshot/mob_upper.jpg"/>
-<img src="images/screenshot/mob_middle.jpg"/>
 <img src="images/screenshot/mob_lower_middle.jpg"/>
 <img src="images/screenshot/mob_footer.jpg"/>
+
+**Webpage on standard tablet resolution**
+
+<img src="images/screenshot/tab_upper.jpg"/>
+<img src="images/screenshot/tab_middle.jpg"/>
+<img src="images/screenshot/tab_lower_middle.jpg"/>
+<img src="images/screenshot/tab_footer.jpg"/>
 
 **Webpage on standard desktop resolution**
 

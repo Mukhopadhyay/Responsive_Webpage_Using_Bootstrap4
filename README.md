@@ -31,4 +31,4 @@ To make the website responsive to the screen width CSS media query is used. So t
 <img src="images/screenshot/pc_footer.jpg" title="PC resolution footer part"/>
 
 
-**Image Resources were taken from: <https://undraw.co/> **
+**Image Resources were taken from:** <https://undraw.co/>
